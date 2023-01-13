@@ -1,0 +1,116 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "generator.rh"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "generator.rh\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GENERATOR DIALOGEX 0, 0, 255, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Підтвердити",IDOK,130,95,57,14
+    PUSHBUTTON      "Відміна",IDCANCEL,198,95,50,14
+    LTEXT           "К-сть точок",IDC_STATIC,21,14,42,8
+    LTEXT           "Мін. знач. х",IDC_STATIC,16,42,39,11
+    LTEXT           "Мін. знач. у",IDC_STATIC,15,73,39,11
+    LTEXT           "Макс. знач. х",IDC_STATIC,131,42,53,11
+    LTEXT           "Макс. знач. у",IDC_STATIC,129,70,53,11
+    EDITTEXT        IDC_NPOINT,66,10,37,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMIN,65,37,37,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMIN,64,69,37,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,185,37,37,17,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMAX,183,67,37,17,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_GENERATOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_GENERATOR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
